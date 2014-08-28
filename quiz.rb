@@ -10,7 +10,7 @@ Quiz: Lesson 3
 
   5. It is important because between every request, the application has to reconstitute the world. You have to save what you do into a database. That is why web development is so insecure.
 
-6. (not sure)
+6. Yes. HTTP Client for example issues get and post requests.
 
 7. MVC stands for Model View Controller, which is a software architecture that separates domain/application/business logic from the rest of the user interface. It separates the application into three parts: the model, the view, and the controller. It is important because it is helpful to be organized.
 
