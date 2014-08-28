@@ -20,7 +20,7 @@ Quiz: Lesson 3
 
 2. Rendering would be to render a particular view using the instance variables available in the action. Redirection sends a redirect to the users browser telling it to re-request a new URL. 
 
-3. In the ERB view template, you can show dynamic content using HTML.
+3. In the ERB view template, you can show dynamic content using tags using instance variables, helper methods, or a session. We use tags.
 
 4. I supposed the ERB templates are turned into HTML once the request is processed.
 
