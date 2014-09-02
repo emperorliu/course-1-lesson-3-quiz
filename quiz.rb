@@ -16,7 +16,7 @@ Quiz: Lesson 3
 
 # Sinatra Questions
 
-1. Requests are processed through get/post methods in the main ruby file.
+1. Requests are routed to the controller with an HTTP verb and are either redirected to another route or they display a template. The general pattern is a request containing a set of commands is sent to a server. This generates a response containing response codes and headers. The user agent acts on this information.
 
 2. Rendering would be to render a particular view using the instance variables available in the action. Redirection sends a redirect to the users browser telling it to re-request a new URL. 
 
@@ -24,5 +24,5 @@ Quiz: Lesson 3
 
 4. I supposed the ERB templates are turned into HTML once the request is processed.
 
-5. Instance variables have many roles. They can keep track of a username or aid in displaying certain things on a page. 
+5. The main purpose of instance variable is to pass data from the controller to the view. If you are not going to use the data in the view there is not really a need to use instance variables. 
 
